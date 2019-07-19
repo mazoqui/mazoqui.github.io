@@ -1,56 +1,14 @@
 {
   "title": "Untitled screen",
   "synoptic_bg": "/custom/images/03-04.png",
-  "equipmentDashboardTemplate": "", 
+  "equipmentDashboardTemplate": "",
   "refreshInterval": 3000,
   "history": {
     "interval": -24,
     "unit": "hour"
   },
-  "alarm_data_id": 127, 
-  "controls": [    
-    {
-      "equipment_id": 1,
-      "data_id": 127,
-      "format":"Horas totais: %0.2f",
-      "refreshInterval": 0,
-      "synopticComponent":{
-      	"componentName":"SynopticFormattedDisplayValue",
-      	"clientRect": {
-      	  "top": 570,
-      	  "left": 100,
-      	  "width": 160,
-      	  "height": 20
-      	},
-      	"font":{
-      	  "family": "Source Sans Pro",
-      	  "size": 0.5
-      	},
-        "border": "1px solid gray",
-        "boxShadow": "none"
-      }
-    },
-    {
-      "equipment_id": 1,
-      "data_id": 129,
-      "format":"Horas parciais: %0.2f",
-      "refreshInterval": 0,
-      "synopticComponent":{
-      	"componentName":"SynopticFormattedDisplayValue",
-      	"clientRect": {
-      	  "top": 592,
-      	  "left": 100,
-      	  "width": 160,
-      	  "height": 20
-      	},
-      	"font":{
-      	  "family": "Source Sans Pro",
-      	  "size": 0.5 
-      	},
-        "border": "1px solid gray",
-        "boxShadow": "none"
-      }
-    },
+  "alarm_data_id": 127,
+  "controls": [
     {
       "equipment_id": 1,
       "data_id": 127,
@@ -67,87 +25,17 @@
       	},
       	"font":{
       	  "family": "Source Sans Pro",
-      	  "size": 1 
+      	  "size": 1
       	},
       	"stateImages": [
-      		{"state": 21, "backgroundColor": "transparent", "img": "/custom/images/electric_motor_gray.svg"},
-      		{"state": 22, "backgroundColor": "transparent", "img": "/custom/images/electric_motor_green.svg"},
-      		{"state": 23, "backgroundColor": "transparent", "img": "/custom/images/electric_motor_red.svg"}
+      		{"state": 21, "backgroundColor": "transparent", "img": "/custom/images/electric_motor_gray.svg", "label": "Desligado"},
+      		{"state": 22, "backgroundColor": "transparent", "img": "/custom/images/electric_motor_green.svg", "label": "Ligado"},
+      		{"state": 23, "backgroundColor": "transparent", "img": "/custom/images/electric_motor_red.svg", "label": "Sobrecarga"},
       	],
         "border": "none",
         "boxShadow": "none"
       }
     },
-    {
-      "equipment_id": 1,
-      "data_id": 127,
-      "decimals": 0,
-      "format":"",
-      "refreshInterval": 0,
-      "synopticComponent":{
-        "componentName":"SynopticStatusLabel",
-        "clientRect": {
-          "top": 350,
-          "left": 123,
-          "width": 130,
-          "height": 28
-        },
-        "font":{
-          "family": "Source Sans Pro",
-          "size": 0.8 
-        },
-        "stateImages": [
-          {"state": 21, "backgroundColor": "rgba(158, 157, 157, 0.68)", "label": "Desligado"},
-          {"state": 22, "backgroundColor": "rgba(49, 245, 0, 0.69)", "label": "Ligado"},
-          {"state": 23, "backgroundColor": "rgba(244, 67, 54, 0.68)", "label": "Sobrecarga"}
-        ],
-        "border": "1px solid black",
-        "boxShadow": "none",
-        "backgroundColor": "transparent"
-      }
-    },
-    {
-      "equipment_id": 1,
-      "data_id": 127,
-      "format":"Horas totais: %.2f",
-      "refreshInterval": 0,
-      "synopticComponent":{
-        "componentName":"SynopticFormattedDisplayValue",
-        "clientRect": {
-          "top": 570,
-          "left": 352,
-          "width": 160,
-          "height": 20
-        },
-        "font":{
-          "family": "Source Sans Pro",
-          "size": 0.5 
-        },
-        "border": "1px solid gray",
-        "boxShadow": "none"
-      }
-    },
-    {
-      "equipment_id": 1,
-      "data_id": 129,
-      "format":"Horas parciais: %.2f",
-      "refreshInterval": 0,
-      "synopticComponent":{
-        "componentName":"SynopticFormattedDisplayValue",
-        "clientRect": {
-          "top": 592,
-          "left": 352,
-          "width": 160,
-          "height": 20
-        },
-        "font":{
-          "family": "Source Sans Pro",
-          "size": 0.5 
-        },
-        "border": "1px solid gray",
-        "boxShadow": "none"
-      }
-    },    
     {
       "equipment_id": 1,
       "data_id": 129,
@@ -164,46 +52,17 @@
         },
         "font":{
           "family": "Source Sans Pro",
-          "size": 1 
+          "size": 1
         },
         "stateImages": [
-          {"state": 41, "backgroundColor": "transparent", "img": "/custom/images/electric_motor_gray.svg"},
-          {"state": 42, "backgroundColor": "transparent", "img": "/custom/images/electric_motor_green.svg"},
-          {"state": 43, "backgroundColor": "transparent", "img": "/custom/images/electric_motor_red.svg"}
+          {"state": 41, "backgroundColor": "transparent", "img": "/custom/images/electric_motor_gray.svg", "label": "Desligado"},
+      		{"state": 42, "backgroundColor": "transparent", "img": "/custom/images/electric_motor_green.svg", "label": "Ligado"},
+      		{"state": 43, "backgroundColor": "transparent", "img": "/custom/images/electric_motor_red.svg", "label": "Sobrecarga"},
         ],
         "border": "none",
         "boxShadow": "none"
       }
     },
-    {
-      "equipment_id": 1,
-      "data_id": 129,
-      "decimals": 0,
-      "format":"",
-      "refreshInterval": 0,
-      "synopticComponent":{
-        "componentName":"SynopticStatusLabel",
-        "clientRect": {
-          "top": 350,
-          "left": 375,
-          "width": 130,
-          "height": 28
-        },
-        "font":{
-          "family": "Source Sans Pro",
-          "size": 0.8
-        },
-        "stateImages": [
-          {"state": 41, "backgroundColor": "rgba(158, 157, 157, 0.68)", "label": "Desligado"},
-          {"state": 42, "backgroundColor": "rgba(49, 245, 0, 0.69)", "label": "Ligado"},
-          {"state": 43, "backgroundColor": "rgba(244, 67, 54, 0.68)", "label": "Sobrecarga"}
-        ],
-        "border": "1px solid black",
-        "boxShadow": "none",
-        "backgroundColor": "transparent"
-      }
-    },
-
     {
       "equipment_id": 1,
       "data_id": 127,
@@ -227,7 +86,7 @@
         },
         "font":{
           "family": "Source Sans Pro",
-          "size": 1 
+          "size": 1
         },
         "children":[
           {
@@ -268,7 +127,7 @@
         },
         "font":{
           "family": "Source Sans Pro",
-          "size": 1 
+          "size": 1
         },
         "children":[
           {
@@ -302,7 +161,7 @@
         },
         "font":{
           "family": "Source Sans Pro",
-          "size": 1 
+          "size": 1
         },
         "children":[
           {
