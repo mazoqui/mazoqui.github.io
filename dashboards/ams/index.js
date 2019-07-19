@@ -10,8 +10,94 @@
   "alarm_data_id": 127,
   "controls": [
     {
+      "refreshInterval": 0,
+      "synopticComponent":{
+        "componentName":"SynopticSimpleTable",
+        "clientRect": {
+          "top": 570,
+      	  "left": 100,
+          "width": 170,
+          "height": 76
+        },
+        "font":{
+          "family": "Source Sans Pro",
+          "size": 0.5
+        },
+        "border": "0",
+        "boxShadow": "none"
+      },
+      "dataSheet": [
+        [
+          {
+            "value":"Horas Parciais",
+            "textAlign":"center",
+            "width": "65%"
+          },
+          {
+            "data_id": "TEMP",
+            "textAlign":"center",
+            "format": "%0.2f"
+          }
+        ],
+        [
+          {
+            "value":"Horas Totais",
+            "textAlign":"center"
+          },
+          {
+            "data_id": "HUMIDITY",
+            "textAlign":"center",
+            "format": "%0.2d"
+          }
+        ]
+      ]
+    },
+    {
+      "refreshInterval": 0,
+      "synopticComponent":{
+        "componentName":"SynopticSimpleTable",
+        "clientRect": {
+          "top": 570,
+      	  "left": 352,
+          "width": 170,
+          "height": 76
+        },
+        "font":{
+          "family": "Source Sans Pro",
+          "size": 0.5
+        },
+        "border": "0",
+        "boxShadow": "none"
+      },
+      "dataSheet": [
+        [
+          {
+            "value":"Horas Parciais",
+            "textAlign":"center",
+            "width": "65%"
+          },
+          {
+            "data_id": "TEMP",
+            "textAlign":"center",
+            "format": "%0.2f"
+          }
+        ],
+        [
+          {
+            "value":"Horas Totais",
+            "textAlign":"center"
+          },
+          {
+            "data_id": "HUMIDITY",
+            "textAlign":"center",
+            "format": "%0.2d"
+          }
+        ]
+      ]
+    },
+    {
       "equipment_id": 1,
-      "data_id": 127,
+      "data_id": "TEMP",
       "decimals": 0,
       "format":"",
       "refreshInterval": 0,
@@ -38,7 +124,7 @@
     },
     {
       "equipment_id": 1,
-      "data_id": 129,
+      "data_id": "HUMIDITY",
       "decimals": 0,
       "format":"",
       "refreshInterval": 0,
@@ -65,7 +151,7 @@
     },
     {
       "equipment_id": 1,
-      "data_id": 127,
+      "data_id": "TEMP",
       "decimals": 0,
       "format":"",
       "refreshInterval": 0,
@@ -90,7 +176,7 @@
         },
         "children":[
           {
-            "data_id": 127,
+            "data_id": "TEMP",
             "decimals": 0,
             "componentName":"SynopticStatusIcon",
             "synopticComponent":{
@@ -106,7 +192,7 @@
     },
     {
       "equipment_id": 1,
-      "data_id": 129,
+      "data_id": "HUMIDITY",
       "decimals": 0,
       "format":"",
       "refreshInterval": 0,
@@ -131,7 +217,7 @@
         },
         "children":[
           {
-            "data_id": 129,
+            "data_id": "HUMIDITY",
             "decimals": 0,
             "componentName":"SynopticStatusIcon",
             "synopticComponent":{
@@ -147,7 +233,7 @@
     },
     {
       "equipment_id": 1,
-      "data_id": 127,
+      "data_id": "TEMP",
       "decimals": 0,
       "format":"",
       "refreshInterval": 0,
@@ -165,7 +251,7 @@
         },
         "children":[
           {
-            "data_id": 127,
+            "data_id": "TEMP",
             "decimals": 0,
             "componentName":"SynopticStatusIcon",
             "synopticComponent":{
@@ -181,7 +267,7 @@
     },
     {
       "equipment_id": 1,
-      "data_id": 129,
+      "data_id": "HUMIDITY",
       "decimals": 0,
       "format":"",
       "refreshInterval": 0,
