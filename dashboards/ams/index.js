@@ -116,7 +116,7 @@
       	"stateImages": [
       		{"state": 21, "backgroundColor": "transparent", "img": "/custom/images/electric_motor_gray.svg", "label": "Desligado"},
       		{"state": 22, "backgroundColor": "transparent", "img": "/custom/images/electric_motor_green.svg", "label": "Ligado"},
-      		{"state": 23, "backgroundColor": "transparent", "img": "/custom/images/electric_motor_red.svg", "label": "Sobrecarga"},
+      		{"state": 23, "backgroundColor": "transparent", "img": "/custom/images/electric_motor_red.svg", "label": "Sobrecarga"}
       	],
         "border": "none",
         "boxShadow": "none"
@@ -143,7 +143,7 @@
         "stateImages": [
           {"state": 41, "backgroundColor": "transparent", "img": "/custom/images/electric_motor_gray.svg", "label": "Desligado"},
       		{"state": 42, "backgroundColor": "transparent", "img": "/custom/images/electric_motor_green.svg", "label": "Ligado"},
-      		{"state": 43, "backgroundColor": "transparent", "img": "/custom/images/electric_motor_red.svg", "label": "Sobrecarga"},
+      		{"state": 43, "backgroundColor": "transparent", "img": "/custom/images/electric_motor_red.svg", "label": "Sobrecarga"}
         ],
         "border": "none",
         "boxShadow": "none"
