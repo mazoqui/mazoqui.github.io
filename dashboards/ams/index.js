@@ -285,7 +285,7 @@
         },
         "children":[
           {
-            "data_id": 127,
+            "data_id": "TEMP",
             "decimals": 0,
             "componentName":"SynopticStatusIcon",
             "synopticComponent":{
